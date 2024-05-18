@@ -1,9 +1,9 @@
 # ▶️ CSS Flexbox cheat sheet
 
-### 1.1 [flex-direction property](#flex-direction--property)
-### 1.2 [flex-wrap property](#flex-wrap--property)
-### 1.3 [align-items property](#align-items--property)
-### 1.4 [justify-content property](#justify-content--property)
+### 1.1 [flex-direction property](#flex-direction-property)
+### 1.2 [flex-wrap property](#flex-wrap-property)
+### 1.3 [align-items property](#align-items-property)
+### 1.4 [justify-content property](#justify-content-property)
 
 ### 2.1 [flex-grow property](#flex-grow--property)
 ### 2.2 [flex-shrink property](#flex-shrink--property)
