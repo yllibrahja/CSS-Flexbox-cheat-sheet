@@ -5,11 +5,11 @@
 ### 1.3 [align-items property](#align-items-property)
 ### 1.4 [justify-content property](#justify-content-property)
 
-### 2.1 [flex-grow property](#flex-grow--property)
-### 2.2 [flex-shrink property](#flex-shrink--property)
-### 2.3 [flex-basis property](#flex-basis--property)
-### 2.4 [order property](#order--property)
-### 2.5 [align-self property](#align-self--property)
+### 2.1 [flex-grow property](#flex-grow-property)
+### 2.2 [flex-shrink property](#flex-shrink-property)
+### 2.3 [flex-basis property](#flex-basis-property)
+### 2.4 [order property](#order-property)
+### 2.5 [align-self property](#align-self-property)
 
 ## CSS Selectors
 
