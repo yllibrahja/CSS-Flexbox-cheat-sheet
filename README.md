@@ -216,7 +216,7 @@ div {
 > #### stretch:
 > > Stretches item to fill the container. 
 
-## ▶️ Small project that demonstrates the use of all the Flexbox properties included in the cheat sheet. 
+> ## ▶️ Small project that demonstrates the use of all the Flexbox properties included in the cheat sheet. 
 
 > * We'll create a simple HTML page with a flex container that includes multiple flex items, each demonstrating different properties.
 
