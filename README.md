@@ -216,7 +216,127 @@ div {
 > #### stretch:
 > > Stretches item to fill the container. 
 
+## ▶️ Small project that demonstrates the use of all the Flexbox properties included in the cheat sheet. 
 
+> * We'll create a simple HTML page with a flex container that includes multiple flex items, each demonstrating different properties.
+
+## Project Structure
+```
+flexbox-demo/
+├── index.html
+└── styles.css
+```
+## HTML Structure
+> [!NOTE]
+> The HTML file includes a `div` with the class `flex-container` which contains five `div` elements, each with the class `flex-item` and unique class names for demonstration purposes. 
+```html
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Flexbox Demo</title>
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+    <div class="flex-container">
+        <div class="flex-item item1">Item 1</div>
+        <div class="flex-item item2">Item 2</div>
+        <div class="flex-item item3">Item 3</div>
+        <div class="flex-item item4">Item 4</div>
+        <div class="flex-item item5">Item 5</div>
+    </div>
+</body>
+</html>
+```
+## CSS Styles
+> [!NOTE]
+> The base styles set up a simple centered layout with some basic styling.
+>
+> > The `.flex-container` class includes properties such as `flex-direction`, `flex-wrap`, `justify-content`, and `align-items` to demonstrate various Flexbox container properties.
+>
+> > The `.flex-item` class includes properties such as `flex-grow`, `flex-shrink`, and `flex-basis` to demonstrate Flexbox item properties.
+>
+> > Specific item classes (`.item1`, `.item2`, etc) demonstrate the `order` and `align-self` properties.
+>
+> > A hover effect is included to demonstrate dynamic changes in `flex-grow` and `flex-shrink`. 
+```css
+/* Base styles for the project */
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    background-color: #f0f0f0;
+}
+
+/* Flex container styles */
+.flex-container {
+    display: flex;
+    flex-direction: row; /* Change to row-reverse, column, column-reverse to see the effect */
+    flex-wrap: wrap; /* Change to nowrap to see the effect */
+    justify-content: space-between; /* Change to flex-start, flex-end, center, space-evenly to see the effect */
+    align-items: center; /* Change to flex-start, flex-end, stretch to see the effect */
+    width: 80%;
+    height: 60%;
+    border: 2px solid #ccc;
+    background-color: #fff;
+    padding: 10px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+}
+
+/* Flex item styles */
+.flex-item {
+    flex-grow: 1; /* Change to different values to see the effect */
+    flex-shrink: 1; /* Change to different values to see the effect */
+    flex-basis: 20%; /* Change to different values or units to see the effect */
+    margin: 10px;
+    padding: 20px;
+    background-color: #007bff;
+    color: #fff;
+    text-align: center;
+    border-radius: 5px;
+    transition: all 0.3s ease;
+}
+
+/* Specific item styles */
+.item1 {
+    order: 2; /* Change to different values to see the effect */
+    align-self: flex-start; /* Change to auto, flex-end, center, stretch to see the effect */
+}
+
+.item2 {
+    order: 1;
+    align-self: flex-end;
+}
+
+.item3 {
+    order: 3;
+    align-self: center;
+}
+
+.item4 {
+    order: 4;
+    align-self: stretch;
+}
+
+.item5 {
+    order: 5;
+    align-self: flex-start;
+}
+
+/* Hover effect to see flex-grow and flex-shrink in action */
+.flex-item:hover {
+    flex-grow: 2;
+    flex-shrink: 0;
+    background-color: #0056b3;
+}
+```
+> [!IMPORTANT]
+> ### This project provides a visual representation of the Flexbox properties and can be easily modified to experiment with different settings.
 
 
 
